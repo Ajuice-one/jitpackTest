@@ -1,13 +1,15 @@
 plugins {
-    id 'com.android.application'
+    id  'com.android.library'    // 认准这行
+    id 'com.github.dcendents.android-maven'    // 添加本行
 }
+group='com.github.WangTianAo'    // 添加本行
 
 android {
     compileSdkVersion 30
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "com.bawei.study1109viewmodel"
+//        applicationId "com.bawei.study1109viewmodel"
         minSdkVersion 24
         targetSdkVersion 30
         versionCode 1
